@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./canvas.css">
+    <title>Fighting Game</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="healthbar">
+            <div class="playerHealth_wrapper">
+                <div class="playerHealth"></div>
+                <div class="playerLoss" style="position: absolute;"></div>
+            </div>
+            <div class="timer">10</div>
+            <div class="enemyHealth_wrapper">
+                <div class="enemyHealth"></div>
+                <div class="enemyLoss" style="position: absolute;"></div>
+            </div>
+        </div>
+        <div class="tie">Tie</div>
+        <canvas></canvas>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./utils.js"></script>
+    <script src="./classes.js"></script>
+    <script src="./canvas.js"></script>
+</body>
+</html>
