@@ -1,7 +1,8 @@
-# Animation with canvas
+# Fighting Game
 
-In this project, I created a website which consists of interesting cycles
-that are animated with respect to the mouse, size of device, etc.
+This game consists of two players who fight against each other using keyboard keys.
+
+player one uses 'a, s, w, and d' key codes, while player two uses 'ArrowRight, ArrowLeft, ArrowUp, and ArrowDown' keycodes.
 
 Enjoy,
 Arnold.

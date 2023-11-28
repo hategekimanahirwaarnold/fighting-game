@@ -5,11 +5,13 @@
     font-family: 'Press Start 2P', cursive;
 }
 body {
-    /* display: flex;
+    display: flex;
     justify-content: center;
-    align-items: center; */
-    background-color: white;
+    background-color: black;
+    margin: 0;
+    align-items: center;
     width: 100%;
+    overflow: hidden;
     height: 100vh;
 }
 .wrapper {
